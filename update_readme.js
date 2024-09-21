@@ -23,9 +23,9 @@ async function updateReadme(contributors) {
             `<div style="text-align: center; margin: 10px;">
                 <a href="${contributor.html_url}">
                     <img src="${contributor.avatar_url}&s=60" width="60" height="60">
+                    <br>
+                    <span>${contributor.login}</span>
                 </a>
-                <br>
-                <span>${contributor.login}</span>
             </div>`
         ).join('\n');
 
