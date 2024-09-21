@@ -7,7 +7,8 @@ async function getContributors(repo) {
         const response = await axios.get(url);
         return response.data.map(contributor => ({
             avatar_url: contributor.avatar_url,
-            html_url: contributor.html_url
+            html_url: contributor.html_url,
+            login: contributor.login
         }));
     } catch (error) {
         console.error('Error fetching contributors:', error);
@@ -19,7 +20,13 @@ async function updateReadme(contributors) {
     try {
         let readme = fs.readFileSync('README.md', 'utf8');
         const contributorsSection = '## Credits 🙏\n' + contributors.map(contributor => 
-            `<a href="${contributor.html_url}"><img src="${contributor.avatar_url}&s=80" width="80" height="80"></a>`
+            `<div style="text-align: center; margin: 10px;">
+                <a href="${contributor.html_url}">
+                    <img src="${contributor.avatar_url}&s=60" width="60" height="60">
+                </a>
+                <br>
+                <span>${contributor.login}</span>
+            </div>`
         ).join('\n');
 
         readme = readme.replace(/## Credits 🙏\n[\s\S]*?(?=\n##|$)/, contributorsSection);
