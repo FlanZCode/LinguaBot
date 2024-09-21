@@ -30,16 +30,16 @@ This bot is hosted by the project owner. Therefore, you do not need to install i
 <div style="text-align: center; margin: 10px;">
                 <a href="https://github.com/FlanZCode">
                     <img src="https://avatars.githubusercontent.com/u/108761778?v=4&s=60" width="60" height="60">
+                    <br>
+                    <span>FlanZCode</span>
                 </a>
-                <br>
-                <span>FlanZCode</span>
             </div>
 <div style="text-align: center; margin: 10px;">
                 <a href="https://github.com/apps/github-actions">
                     <img src="https://avatars.githubusercontent.com/in/15368?v=4&s=60" width="60" height="60">
+                    <br>
+                    <span>github-actions[bot]</span>
                 </a>
-                <br>
-                <span>github-actions[bot]</span>
             </div>
 ## License 📕
 This project is licensed under the MIT License. See the LICENSE file for details.
