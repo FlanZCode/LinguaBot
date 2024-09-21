@@ -27,7 +27,6 @@ This bot is hosted by the project owner. Therefore, you do not need to install i
 8. Describe your changes and submit the pull request.
 
 ## Credits 🙏
-- FlanZCode
-- github-actions[bot]
+- !FlanZCode
 ## License 📕
 This project is licensed under the MIT License. See the LICENSE file for details.
