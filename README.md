@@ -1,6 +1,6 @@
 # LinguaBot
 ### LinguaBot is a Discord.JS bot designed to facilitate translation between different languages directly on your Discord server. 🚀
----
+
 ## Features
 - Real-time translation between multiple languages 🌐
 - Automatic detection of the source language 🕵️
