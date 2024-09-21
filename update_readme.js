@@ -19,7 +19,7 @@ async function updateReadme(contributors) {
     try {
         let readme = fs.readFileSync('README.md', 'utf8');
         const contributorsSection = '## Credits 🙏\n' + contributors.map(contributor => 
-            `<a href="${contributor.html_url}"><img src="${contributor.avatar_url}&s=40" width="40" height="40" style="border-radius:50%;"></a>`
+            `<a href="${contributor.html_url}"><img src="${contributor.avatar_url}&s=80" width="80" height="80"></a>`
         ).join('\n');
 
         readme = readme.replace(/## Credits 🙏\n[\s\S]*?(?=\n##|$)/, contributorsSection);
