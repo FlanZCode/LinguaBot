@@ -27,7 +27,19 @@ This bot is hosted by the project owner. Therefore, you do not need to install i
 8. Describe your changes and submit the pull request.
 
 ## Credits 🙏
-<a href="https://github.com/FlanZCode"><img src="https://avatars.githubusercontent.com/u/108761778?v=4&s=80" width="80" height="80"></a>
-<a href="https://github.com/apps/github-actions"><img src="https://avatars.githubusercontent.com/in/15368?v=4&s=80" width="80" height="80"></a>
+<div style="text-align: center; margin: 10px;">
+                <a href="https://github.com/FlanZCode">
+                    <img src="https://avatars.githubusercontent.com/u/108761778?v=4&s=60" width="60" height="60">
+                </a>
+                <br>
+                <span>FlanZCode</span>
+            </div>
+<div style="text-align: center; margin: 10px;">
+                <a href="https://github.com/apps/github-actions">
+                    <img src="https://avatars.githubusercontent.com/in/15368?v=4&s=60" width="60" height="60">
+                </a>
+                <br>
+                <span>github-actions[bot]</span>
+            </div>
 ## License 📕
 This project is licensed under the MIT License. See the LICENSE file for details.
