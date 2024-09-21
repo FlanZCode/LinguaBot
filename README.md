@@ -27,8 +27,8 @@ This bot is hosted by the project owner. Therefore, you do not need to install i
 8. Describe your changes and submit the pull request.
 
 ## Credits 🙏
-<a href = "https://github.com/FlanZCode/LinguaBot/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = FlanZCode/LinguaBot"/>
+<a href="https://github.com/FlanZCode/LinguaBot/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FlanZCode/LinguaBot" />
 </a>
 
 ## License 📕
