@@ -27,19 +27,9 @@ This bot is hosted by the project owner. Therefore, you do not need to install i
 8. Describe your changes and submit the pull request.
 
 ## Credits 🙏
-<div style="text-align: center; margin: 10px;">
-                <a href="https://github.com/FlanZCode">
-                    <img src="https://avatars.githubusercontent.com/u/108761778?v=4&s=60" width="60" height="60">
-                    <br>
-                    <span>FlanZCode</span>
-                </a>
-            </div>
-<div style="text-align: center; margin: 10px;">
-                <a href="https://github.com/apps/github-actions">
-                    <img src="https://avatars.githubusercontent.com/in/15368?v=4&s=60" width="60" height="60">
-                    <br>
-                    <span>github-actions[bot]</span>
-                </a>
-            </div>
+<a href="https://github.com/FlanZCode/LinguaBot/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FlanZCode/LinguaBot" />
+</a>
+
 ## License 📕
 This project is licensed under the MIT License. See the LICENSE file for details.
