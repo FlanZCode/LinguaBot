@@ -6,7 +6,6 @@ async function getContributors(repo) {
         const url = `https://api.github.com/repos/${repo}/contributors`;
         const response = await axios.get(url);
         return response.data.map(contributor => ({
-            login: contributor.login,
             avatar_url: contributor.avatar_url,
             html_url: contributor.html_url
         }));
@@ -20,8 +19,8 @@ async function updateReadme(contributors) {
     try {
         let readme = fs.readFileSync('README.md', 'utf8');
         const contributorsSection = '## Credits 🙏\n' + contributors.map(contributor => 
-            `- !${contributor.login}`
-        ).join('\n');
+            `<img src="${contributor.avatar_url}&s=40" width="40" height="40">`
+        ).join(' ');
 
         readme = readme.replace(/## Credits 🙏\n[\s\S]*?(?=\n##|$)/, contributorsSection);
 
