@@ -31,5 +31,3 @@ This bot is hosted by the project owner. Therefore, you do not need to install i
 - github-actions[bot]
 ## License 📕
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Version History 📜
